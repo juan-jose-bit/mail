@@ -1,0 +1,38 @@
+textarea {
+    min-height: 400px;
+}
+
+.mail-card-read, .mail-card-unread {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-card-read {
+    background-color: lightgray;
+}
+
+.mail-card-read p, .mail-card-unread p {
+    display: inline;
+}
+
+.mail-card-unread:hover, .mail-card-read:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+
+.timestamp {
+    margin-left: auto;
+}
+
+#buttons > button{
+    margin-right: 10px;
+}
